@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YearsYoga — Chair Yoga, Face Yoga & Gentle Yoga for Seniors | United States</title>
+<meta name="description" content="Chair yoga, face yoga, and gentle seated yoga classes designed for American seniors. Safe, joyful, no floor work required. In-person and live online classes.">
+<style>
+  :root{
+    --sage:#5a7a5a; --sage-dark:#3d5a3d; --cream:#fbf7f0; --warm:#e8dcc8;
+    --peach:#e8a87c; --ink:#2e2a26; --soft:#6b655e; --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:Georgia,'Times New Roman',serif;background:var(--cream);color:var(--ink);line-height:1.7}
+  h1,h2,h3{font-family:'Segoe UI',Arial,sans-serif;color:var(--sage-dark)}
+  a{color:var(--sage-dark)}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+  header{background:var(--white);border-bottom:3px solid var(--warm);position:sticky;top:0;z-index:50}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1100px;margin:0 auto;flex-wrap:wrap}
+  .logo{font-family:'Segoe UI',Arial,sans-serif;font-size:1.4rem;font-weight:700;color:var(--sage-dark);text-decoration:none}
+  .logo span{color:var(--peach)}
+  .nav ul{display:flex;gap:26px;list-style:none;flex-wrap:wrap}
+  .nav a{text-decoration:none;font-family:'Segoe UI',Arial,sans-serif;font-size:1.05rem;padding:6px 4px;border-radius:6px}
+  .nav a:hover,.nav a:focus{background:var(--warm);outline:2px solid var(--sage)}
+  .btn{display:inline-block;background:var(--sage);color:#fff;font-family:'Segoe UI',Arial,sans-serif;font-size:1.15rem;padding:14px 34px;border-radius:50px;text-decoration:none;border:none;cursor:pointer}
+  .btn:hover{background:var(--sage-dark)}
+  .hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:70px 24px;max-width:1100px;margin:0 auto}
+  .hero h1{font-size:2.7rem;line-height:1.2;margin-bottom:20px}
+  .hero p{font-size:1.2rem;color:var(--soft);margin-bottom:28px}
+  .hero img{width:100%;border-radius:20px;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+  .badge{display:inline-block;background:var(--warm);color:var(--ink);padding:6px 18px;border-radius:20px;font-family:'Segoe UI',Arial,sans-serif;font-size:.95rem;margin-bottom:18px}
+  section{padding:70px 0}
+  .alt{background:var(--white)}
+  h2{font-size:2rem;margin-bottom:14px;text-align:center}
+  .sub{text-align:center;color:var(--soft);max-width:640px;margin:0 auto 44px;font-size:1.1rem}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px}
+  .card{background:var(--cream);border:1px solid var(--warm);border-radius:18px;padding:34px 28px;text-align:center}
+  .alt .card{background:var(--white)}
+  .card img{width:130px;height:130px;border-radius:50%;object-fit:cover;margin-bottom:8px}
+  .card h3{font-size:1.35rem;margin:14px 0 10px}
+  .card p{color:var(--soft);text-align:left}
+  .card ul{margin:14px 0 0 20px;color:var(--soft);text-align:left}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:26px;text-align:center}
+  .step .num{width:56px;height:56px;background:var(--peach);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:700;margin:0 auto 16px;font-family:'Segoe UI',Arial,sans-serif}
+  .quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px}
+  blockquote{background:var(--cream);border-left:5px solid var(--sage);padding:24px;border-radius:0 14px 14px 0;font-style:italic}
+  blockquote footer{margin-top:12px;font-style:normal;font-family:'Segoe UI',Arial,sans-serif;font-weight:600;color:var(--sage-dark)}
+  table{width:100%;border-collapse:collapse;background:var(--white);border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+  th{background:var(--sage);color:#fff;padding:14px;font-family:'Segoe UI',Arial,sans-serif;text-align:left}
+  td{padding:14px;border-bottom:1px solid var(--warm)}
+  tr:last-child td{border-bottom:none}
+  details{background:var(--white);border:1px solid var(--warm);border-radius:12px;margin-bottom:14px;padding:18px 22px}
+  summary{font-family:'Segoe UI',Arial,sans-serif;font-weight:600;font-size:1.1rem;cursor:pointer;color:var(--sage-dark)}
+  details p{margin-top:10px;color:var(--soft)}
+  .cta{background:var(--sage);text-align:center;color:#fff}
+  .cta h2{color:#fff}
+  .cta p{color:#e6efe6;max-width:600px;margin:0 auto 30px}
+  .btn-light{background:var(--cream);color:var(--sage-dark)}
+  footer.site{background:var(--ink);color:#cfc9c2;padding:50px 0 30px}
+  footer.site .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;max-width:1100px;margin:0 auto;padding:0 24px}
+  footer.site h4{color:#fff;font-family:'Segoe UI',Arial,sans-serif;margin-bottom:12px}
+  footer.site ul{list-style:none}
+  footer.site li{margin-bottom:8px}
+  footer.site a{color:#cfc9c2;text-decoration:none}
+  footer.site a:hover{color:var(--peach)}
+  .fine{max-width:1100px;margin:34px auto 0;padding:22px 24px 0;border-top:1px solid #4a453f;font-size:.9rem;text-align:center}
+  @media(max-width:800px){.hero{grid-template-columns:1fr}.hero h1{font-size:2.1rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="logo" href="#top">Years<span>Yoga</span></a>
+    <ul>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div>
+    <span class="badge">Designed for Adults 60+ · Across the United States</span>
+    <h1>Stronger Bodies.<br>Brighter Faces.<br>Lighter Hearts.</h1>
+    <p>Chair yoga, face yoga, and gentle guided classes created especially for seniors. No getting down on the floor. No experience needed. Just real, feel-good movement — in person or live on Zoom.</p>
+    <a class="btn" href="#contact">Book Your First Free Class</a>
+  </div>
+  <div>
+    <img src="hero-yoga.png" alt="Original illustration of three happy seniors practicing chair yoga together in a bright studio">
+  </div>
+</section>
+
+<section class="alt" id="classes">
+  <div class="wrap">
+    <h2>Three Gentle Ways to Practice</h2>
+    <p class="sub">Every class is taught seated or standing with chair support. Movements are slow, breath-led, and adaptable for arthritis, joint replacements, and limited mobility.</p>
+    <div class="cards">
+      <div class="card">
+        <img src="chair-yoga.png" alt="Original illustration of a smiling senior raising both arms in a chair yoga pose">
+        <h3>Chair Yoga</h3>
+        <p>A full mind-body practice from the safety of your chair. Build balance, flexibility, and calm without ever getting on the floor.</p>
+        <ul>
+          <li>45 minutes, seated &amp; standing support</li>
+          <li>Improves posture and circulation</li>
+          <li>Great for beginners and wheelchair users</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="face-yoga.png" alt="Original illustration of a senior performing gentle face yoga self-massage on the cheeks">
+        <h3>Face Yoga</h3>
+        <p>Targeted gentle exercises and self-massage for the 40+ muscles of the face and neck. Wake up tired muscles, release jaw and forehead tension, and glow from the inside out.</p>
+        <ul>
+          <li>30 minutes, no equipment needed</li>
+          <li>Supports natural skin firmness</li>
+          <li>Eases tension headaches and TMJ tightness</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="gentle-yoga.png" alt="Original illustration of a senior stretching arms upward in a gentle supported yoga flow">
+        <h3>Gentle Flow Yoga</h3>
+        <p>A slower-paced, supportive class using chairs, walls, and straps. Perfect for active seniors who want a little more stretch while staying fully supported.</p>
+        <ul>
+          <li>60 minutes with warm-up and relaxation</li>
+          <li>Props always provided and encouraged</li>
+          <li>Ends with guided breathing for better sleep</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>Why Seniors Across America Choose YearsYoga</h2>
+    <p class="sub">We built YearsYoga around one simple belief: movement should feel good at every age — and it should never require getting down on the ground.</p>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Certified Senior Instructors</h3><p>Teachers trained in chair yoga, senior fitness, and safe modifications for common conditions like osteoporosis and arthritis.</p></div>
+      <div class="step"><div class="num">2</div><h3>Small Class Sizes</h3><p>Never more than 15 students per session, so every person gets personal attention and hands-on support.</p></div>
+      <div class="step"><div class="num">3</div><h3>Online &amp; In Person</h3><p>Join from your living room on live video, or visit us at partner community centers in multiple US states.</p></div>
+      <div class="step"><div class="num">4</div><h3>Judgment-Free Zone</h3><p>Come as you are. Comfortable clothes and a sturdy chair are all you need. We celebrate every small victory.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="schedule">
+  <div class="wrap">
+    <h2>Weekly Class Schedule (US Time Zones)</h2>
+    <p class="sub">All times listed in Eastern Time. Online classes welcome students from every state.</p>
+    <table>
+      <thead><tr><th>Day</th><th>Time (ET)</th><th>Class</th><th>Format</th></tr></thead>
+      <tbody>
+        <tr><td>Monday</td><td>10:00 AM</td><td>Chair Yoga</td><td>Online (Live Zoom)</td></tr>
+        <tr><td>Tuesday</td><td>11:00 AM</td><td>Face Yoga</td><td>Online (Live Zoom)</td></tr>
+        <tr><td>Wednesday</td><td>9:30 AM</td><td>Gentle Flow Yoga</td><td>In Person — Community Center</td></tr>
+        <tr><td>Thursday</td><td>10:00 AM</td><td>Chair Yoga</td><td>In Person — Community Center</td></tr>
+        <tr><td>Friday</td><td>11:00 AM</td><td>Face Yoga + Relaxation</td><td>Online (Live Zoom)</td></tr>
+        <tr><td>Saturday</td><td>9:00 AM</td><td>Gentle Flow Yoga</td><td>In Person — Community Center</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="wrap">
+    <h2>What Our Students Say</h2>
+    <p class="sub">Real words from real seniors in our community.</p>
+    <div class="quotes">
+      <blockquote>"After my knee replacement I thought yoga was behind me. Chair yoga gave me my balance back — and my confidence."
+        <footer>— Margaret L., 71 · Florida</footer>
+      </blockquote>
+      <blockquote>"The face yoga class is my favorite half hour of the week. My jaw tension is gone and friends ask what my secret is!"
+        <footer>— Robert T., 66 · Texas</footer>
+      </blockquote>
+      <blockquote>"I attend from my recliner in Ohio. The teachers check on everyone by name. It feels like family."
+        <footer>— Dorothy W., 78 · Ohio</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="faq">
+  <div class="wrap">
+    <h2>Frequently Asked Questions</h2>
+    <p class="sub">Have another question? Reach out anytime — we love to talk.</p>
+    <details><summary>Do I need to be flexible or have done yoga before?</summary><p>Not at all. Our classes are built for beginners and meet you exactly where you are today. Every movement has a simpler option.</p></details>
+    <details><summary>What equipment do I need at home?</summary><p>Just a sturdy chair without wheels and comfortable clothing. For face yoga, clean hands and a quiet spot are all that's required.</p></details>
+    <details><summary>Is chair yoga safe if I have arthritis or osteoporosis?</summary><p>Our instructors are trained in senior-safe modifications. However, yoga is not a substitute for medical care — please consult your physician before starting any new exercise program, and tell us about any conditions so we can adapt poses for you.</p></details>
+    <details><summary>How much do classes cost?</summary><p>Your first class is free. After that, online classes are $12 each or $40/month unlimited, and in-person sessions are $15 each. Senior center partnership rates are also available.</p></details>
+    <details><summary>How do I join an online class?</summary><p>After booking, you'll receive an email with a one-click Zoom link. No account or tech skills needed — just tap and join. We also offer a free 10-minute tech check before your first class.</p></details>
+    <div style="text-align:center;margin-top:34px">
+      <a class="btn" href="#contact">Book Your Free First Class</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="wrap">
+    <h2>Your First Class Is On Us</h2>
+    <p>Call us at (555) 214-6789 or send a message below. We'll help you pick the perfect class and answer any questions — no pressure, ever.</p>
+    <form style="max-width:520px;margin:0 auto;display:grid;gap:14px;text-align:left" action="mailto:hello@yearsyoga.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your name" required style="padding:14px;border-radius:10px;border:none;font-size:1.05rem;font-family:'Segoe UI',Arial,sans-serif">
+      <input type="email" name="email" placeholder="Your email" required style="padding:14px;border-radius:10px;border:none;font-size:1.05rem;font-family:'Segoe UI',Arial,sans-serif">
+      <textarea name="message" rows="4" placeholder="Tell us a little about yourself and what you're looking for" style="padding:14px;border-radius:10px;border:none;font-size:1.05rem;font-family:'Segoe UI',Arial,sans-serif"></textarea>
+      <button class="btn btn-light" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="cols">
+    <div>
+      <h4>YearsYoga</h4>
+      <p>Chair yoga, face yoga, and gentle yoga classes for seniors across the United States — online and in person.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Book a Free Class</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="disclaimer.html">Health Disclaimer</a></li>
+        <li><a href="accessibility.html">Accessibility Statement</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>Phone: (555) 214-6789</li>
+        <li>Email: hello@yearsyoga.com</li>
+        <li>Mon–Sat, 8 AM – 6 PM ET</li>
+      </ul>
+    </div>
+  </div>
+  <div class="fine">
+    <p>© 2026 YearsYoga LLC. All rights reserved. | YearsYoga is not a medical provider; please consult your doctor before beginning any exercise program.</p>
+  </div>
+</footer>
+
+</body>
+</html>
